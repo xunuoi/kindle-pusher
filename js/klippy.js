@@ -297,6 +297,9 @@ u = new Class({
         };
         f.summary = f.text.substring(0, 500);
         if (f.text.length > f.summary.length) f.summary += " ...";
+
+        console.log(f)
+
         return f
     }
 });
@@ -2041,6 +2044,7 @@ u.bc = new Class({
         var c = [],
             e = [];
         b.getElements("*").each(function(d) {
+            
             if ($chk(d)) if (d.isDisplayed()) if (u.j.K(d)) e.push(d);
             else {
                 for (; e.length > 0;) {
@@ -3575,6 +3579,7 @@ var M = new Class({
         return c
     },
     execute: function(a, b) {
+        var self = this;
         if (a == "save") {
             if ($("klip_edit_save") && $("klip_edit_save").get("command") && $("klip_edit_save").get("command") == "klips") {
                 this.execute("klips", b);
@@ -3747,7 +3752,9 @@ var M = new Class({
         else if (a == "settings") chrome.extension.sendMessage({
             action: "setting"
         }, function() {
-            window.close()
+            // window.close()
+            //隐藏发送面板            
+            $klippy.execute("edit-reset");
         });
         else a == "whatsnew" && chrome.extension.sendMessage({
             action: "whatsnew"
@@ -3979,7 +3986,7 @@ var M = new Class({
         }
     }
 });
-window.$main = new M;
+window.$main = new M()
 window.addEvent("domready", function() {
     $main.P();
     chrome.extension.sendMessage({

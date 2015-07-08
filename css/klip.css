@@ -507,7 +507,7 @@ body.exporting #klip_source {
 }
 
 #klip_body.color_off_yellow_off_black #klip_container {
-	background-color: #111;
+	background-color: black;
 }
 
 #klip_body.color_off_yellow_off_black #klip_text_box {
@@ -822,7 +822,7 @@ body.exporting #klip_source {
 
 .klip_button {
 	/***/
-	background: #222 url(chrome-extension://ipkfnchcgalnafehpglfbommidgmalan/images/overlay-button.png) repeat-x 0 0;
+	background: #222 url(../images/overlay-button.png) repeat-x 0 0;
 	display:block;
 	color: white !important;
     font-family: Helvetica;

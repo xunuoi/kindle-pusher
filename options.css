@@ -96,17 +96,30 @@ h1 {
 	text-transform:capitalize;
 }
 
-.buttons {
+.button-ctn {
     clear: left;
 	text-align: right;
     padding: 1em;
+    text-align: center;
 }
 
 .footer {
     text-align: center;
     margin-top: 0.4em
 }
-
+.btn, #myEmailDescription button{
+    outline: none;
+    border: none;
+    padding: 6px 22px;
+    font-size: 14px;
+    background: #FFA05B;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #FF785B;
+}
 .button {
 	background: #222 url(/images/overlay-button.png) repeat-x 0 0;
 	display:inline-block;

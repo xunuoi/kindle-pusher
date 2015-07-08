@@ -10,11 +10,11 @@
 		<script type="text/javascript" src="options.js"></script>
 	</head>
 	<body>
-		<div id="head" class="box">
+		<div id="head" >
 			<h1 i18n-content="options_title">Send to Kindle Options</h1>
 		</div>
 
-		<div id="instructions" i18n-content="options_instructions" class="box" style="background-color:white;border-radius: 10px">
+		<div id="instructions" i18n-content="options_instructions" class="box" style="background-color:white;">
 	        <h2 style="text-align: left;">Instructions</h2>
 	        <p>
 	            First, you <b style="color:red">must</b> tell Amazon to allow "kindle@klip.me" email to reach your Kindle:
@@ -38,9 +38,9 @@
 				<div style="padding:10px;">
 					<input type="text" id="address_name" style="width:150px;padding:5px;background-color:#ffc;font-size:16px;font-weight:bold;" value=""/><span style="color:#E33100; font-weight:bold;font-size:16px;"> @ </span>
 					<select id="address_domain" style="font-size:16px;padding:5px;">
-	                    <option value="free.kindle.com" selected="selected">free.kindle.com</option>
+						<option value="kindle.cn" selected="selected">kindle.cn</option>
+	                    <option value="free.kindle.com">free.kindle.com</option>
 	                    <option value="kindle.com">kindle.com</option>
-	                    <option value="kindle.cn">kindle.cn</option>
 	                    <option value="iduokan.com">iduokan.com</option>
 	                </select>
 					<span i18n-content="options_label_see_instructions">
@@ -107,7 +107,7 @@
 					</div>
 				</td>
 				<td style="width:240px;vertical-align:top;">
-				<div style="background-color:#fe8;border-radius:10px;padding:10px 20px;">
+				<!-- <div style="background-color:#fe8;border-radius:10px;padding:10px 20px; ">
 					<h2 style="text-align:center;">Save to Cloud</h2>
 					<hr/>
 					<p style="line-height:1.5em;">Klip.me running on <a target="_blank" href="http://code.google.com/appengine/">Google App Engine</a>. You can save all your Klips to Cloud for reading later.</p>
@@ -120,15 +120,15 @@
 						<a class="medium grey button" id="favSignout" href="#" title="Sign Out" style="display:none;margin-bottom:20px;">Sign Out</a>
 					</div>
 					<h4>* Recommended, but not required.</h4>
-				</div>
+				</div> -->
 				</td>
 				</tr></table>
 			</div>
 
-			<div class="buttons">
+			<div class="button-ctn">
 				<span id="save_status" i18n-content="options_label_saved">Options saved.</span>
-				<button id="save_button" i18n-content="options_button_save" style="font-size:20px;padding:2px 10px;">Save</button>
-				<button id="reset_button" i18n-content="options_button_reset" style="font-size:20px;padding:2px 10px;">Reset</button>
+				<button id="save_button" i18n-content="options_button_save" class="btn">Save</button>
+				<button id="reset_button" i18n-content="options_button_reset" class="btn">Reset</button>
 			</div>
 			
 			<div id="credits" style="padding:20px;">
@@ -153,14 +153,14 @@
 								<input type="radio" name="verifyType" id="verifyByEvernote" value="evernote" checked="true"/>
 								<label for="verifyByEvernote">Evernote</label>
 								<a id="findEmailEvernote" style="display:none;" target="_blank" href="https://www.evernote.com/User.action#summary" i18n-content="options_label_findEvernoteEmail">Finding your Evernote Email Address</a>
-								<button id="inputEvernoteEmail" style="display:none;float:right;width:80px;height:24px;font-weight:bold;" href="#" i18n-content="options_button_input">Input</button>
+								<button id="inputEvernoteEmail" style="display:none;float:right;width:80px;font-weight:bold;" href="#" i18n-content="options_button_input">Input</button>
 							</div>
 							
 							<div>
 								<input type="radio" name="verifyType" id="verifyByInstapaper" value="instapaper" checked="fase"/>
 								<label for="verifyByInstapaper">Instapaper</label>
 								<a id="findEmailInstapaper" style="display:none;" target="_blank" href="http://www.instapaper.com/extras" i18n-content="options_label_findInstapaperEmail">Finding your Instapaper Email Address</a>
-								<button id="inputInstapaperEmail" style="display:none;float:right;width:80px;height:24px;font-weight:bold;" href="#" i18n-content="options_button_input">Input</button>
+								<button id="inputInstapaperEmail" style="display:none;float:right;width:80px;font-weight:bold;" href="#" i18n-content="options_button_input">Input</button>
 							</div>
 
 							<hr style="margin:10px 0px;"/>
@@ -168,13 +168,13 @@
 							<div>
 								<input type="radio" name="verifyType" id="verifyByGoogleAccount" value="gmail" checked="false"/>
 								<label for="verifyByGoogleAccount" i18n-content="options_label_byGoogleAccount">Google Account: Verify your email address <b>instantly</b>.</label>
-								<button id="verifyGmail" style="display:none;float:right;width:80px;height:24px;font-weight:bold;" href="#" i18n-content="options_button_verify">Verify</button>
+								<button id="verifyGmail" style="display:none;float:right;width:80px;font-weight:bold;" href="#" i18n-content="options_button_verify">Verify</button>
 							</div>
 
 							<div>
 								<input type="radio" name="verifyType" id="verifyByEmail" value="email"/>
 								<label for="verifyByEmail" i18n-content="options_label_byEmail">Email: Will send a verification message to your address.</label>
-								<button id="verifyEmail" style="display:none;float:right;width:80px;height:24px;font-weight:bold;" href="#" i18n-content="options_button_verify">Verify</button>
+								<button id="verifyEmail" style="display:none;float:right;width:80px;" href="#" i18n-content="options_button_verify">Verify</button>
 							</div>
 						</div>
 						
