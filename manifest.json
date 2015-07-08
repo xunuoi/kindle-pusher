@@ -1,0 +1,31 @@
+{
+   "background": {
+      "page": "main.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icon24.png",
+      "default_title": "__MSG_extDesc__"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "lib/mootools-core.js", "lib/mootools-more.js", "js/klippy.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "zh_CN",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   // "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.0.1",
+   "web_accessible_resources": [ "css/base.css", "css/klip.css", "css/select.css", "css/ui.css", "images/overlay-button.png", "images/gtk-close.png", "lib/mootools-core.js", "lib/mootools-more.js", "js/klippy.js" ]
+}

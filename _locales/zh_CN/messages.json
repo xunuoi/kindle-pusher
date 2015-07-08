@@ -1,0 +1,341 @@
+{
+   "button_home": {
+      "description": "",
+      "message": "我的收藏"
+   },
+   "button_ok": {
+      "description": "",
+      "message": "完成"
+   },
+   "button_save": {
+      "description": "",
+      "message": "保存"
+   },
+   "button_send": {
+      "description": "",
+      "message": "发送"
+   },
+   "button_setting": {
+      "description": "",
+      "message": "设置"
+   },
+   "button_whatsnew": {
+      "description": "",
+      "message": "\u003Cspan>最新更新\u003C/span>\u003Chr style=\"border-bottom: .1em solid;clear: both;display: block;float: none;height: 0;margin: 0.5em 0;padding: 0;\"/>\u003Cspan style=\"font-size:12px;\">Google Reader\u003C/span>"
+   },
+   "error_1": {
+      "description": "",
+      "message": "新安装扩展后, 只在新打开的页面工作 (你可以刷新页面)"
+   },
+   "error_2": {
+      "description": "",
+      "message": "这个扩展不能在当前页面工作"
+   },
+   "error_3": {
+      "description": "",
+      "message": "这个扩展不能在当前页面工作"
+   },
+   "extDesc": {
+      "description": "",
+      "message": "推送内容到Kindle"
+   },
+   "extId": {
+      "description": "",
+      "message": "SendToKindle"
+   },
+   "extLanguage": {
+      "description": "",
+      "message": "zh_CN"
+   },
+   "extName": {
+      "description": "",
+      "message": "Kindle Pusher"
+   },
+   "extTitle": {
+      "description": "",
+      "message": "Send to Kindle (by Klip.me)"
+   },
+   "message_1": {
+      "description": "",
+      "message": "一封验证邮件已经发送, 请检查你的邮箱"
+   },
+   "message_10": {
+      "description": "",
+      "message": "高亮选择的文本太短.\u003Cbr/>\u003Cbr/>请重新选择."
+   },
+   "message_11": {
+      "description": "",
+      "message": "你已经用完今天的使用额度: #%1#/day.\r\n\r\n我们将根据服务器资源调整每天额度.\r\n\r\n如果你需要发送大量的文章, 建议使用\"保存\"功能."
+   },
+   "message_12": {
+      "description": "",
+      "message": "抱歉, 这个工具不支持  IE#%1# 或 IE#%2# 模式."
+   },
+   "message_13": {
+      "description": "",
+      "message": "请设置你的Kindle邮件地址: \u003Ca style=\"color:red;\" href=\"#%1#\">选项\u003C/a> 页"
+   },
+   "message_14": {
+      "description": "",
+      "message": "请设置你的邮件地址: \u003Ca style=\"color:red;\" href=\"#%1#\">选项\u003C/a> 页"
+   },
+   "message_15": {
+      "description": "",
+      "message": "今天使用: #%1#\r\n每天额度: #%2#"
+   },
+   "message_16": {
+      "description": "",
+      "message": "在空白页点击 \"#%1#\" 按钮将弹出保存项目列表 (#%2#)"
+   },
+   "message_17": {
+      "description": "",
+      "message": "在空白页点击这个按钮将弹出保存项目列表"
+   },
+   "message_18": {
+      "description": "",
+      "message": "当前文章无法发送到 #%1#"
+   },
+   "message_19": {
+      "description": "",
+      "message": "当前文章成功发送到 #%1#"
+   },
+   "message_2": {
+      "description": "",
+      "message": "请输入一个有效的邮件地址 (name@domain.com):"
+   },
+   "message_20": {
+      "description": "",
+      "message": "当前文章无法发送到 #%1#\u003Cbr/>错误代码: #%2#"
+   },
+   "message_21": {
+      "description": "",
+      "message": "当前页面太大."
+   },
+   "message_22": {
+      "description": "",
+      "message": "当前文章成功保存."
+   },
+   "message_23": {
+      "description": "",
+      "message": "请输入你的邮件地址:"
+   },
+   "message_24": {
+      "description": "",
+      "message": "成功保存文章到Klip.me"
+   },
+   "message_25": {
+      "description": "",
+      "message": "当前文章无法保存到Klip.me\u003Cbr/>错误代码: #%1#"
+   },
+   "message_26": {
+      "description": "",
+      "message": "请连接到Klip.me服务: \u003Ca style=\"color:red;\" href=\"#%1#\">Options\u003C/a> page"
+   },
+   "message_27": {
+      "description": "",
+      "message": "你想保存当前的高亮选择区域吗?\n\n* 这将改善在该网站的正文提取准确性."
+   },
+   "message_28": {
+      "description": "",
+      "message": "提示：标题与正文可以编辑；点击左右深色区域返回。\u003Ca id=\"klip_tips_close\">[关闭]\u003C/>"
+   },
+   "message_29": {
+      "description": "",
+      "message": " "
+   },
+   "message_3": {
+      "description": "",
+      "message": "正在发送验证邮件到你的邮箱..."
+   },
+   "message_30": {
+      "description": "",
+      "message": "\u003Cspan style=\"float:right;\">背景：\u003Ca id=\"klip_format_light\">[浅灰]\u003C/a>，\u003Ca id=\"klip_format_ivory\">[浅黄]\u003C/a>，\u003Ca id=\"klip_format_dark\">[暗]\u003C/a>\u003C/span> \u003Cspan style=\"display:none;\">\u003Ca id=\"klip_export_summary\">\u003C/a>\u003Ca id=\"klip_export_fulltext\">\u003C/a>\u003Ca id=\"klip_export_pictures\">\u003C/a>\u003Ca id=\"klip_export_pictures+\">\u003C/a>\u003C/span>"
+   },
+   "message_31": {
+      "message": "页面图像生成失败，请刷新页面然后重新尝试。"
+   },
+   "message_32": {
+      "message": "图像太大，请删除部分内容。"
+   },
+   "message_33": {
+      "message": "图文已经成功分享到新浪微博。"
+   },
+   "message_34": {
+      "message": "图文已经成功分享到腾讯微博。"
+   },
+   "message_35": {
+      "message": "没有找到适合的图像。"
+   },
+   "message_4": {
+      "description": "",
+      "message": "请输入一个有效的Evernote邮件地址 (name.xxxxx@m.evernote.com)."
+   },
+   "message_5": {
+      "description": "",
+      "message": "请输入一个有效的Instapaper邮件地址  (name.xxxxx@instapaper.com)."
+   },
+   "message_6": {
+      "description": "",
+      "message": "进入Google 账号..."
+   },
+   "message_7": {
+      "description": "",
+      "message": "请输入你的Evernote邮件地址 (xxx.xxxx@m.evernote.com):"
+   },
+   "message_8": {
+      "description": "",
+      "message": "请输入你的Instapaper邮件地址  (xxx.xxxx@instapaper.com):"
+   },
+   "message_9": {
+      "description": "",
+      "message": "抱歉, 无法获得当前页面的内容.\u003Cbr/>\u003Cbr/>请高亮选择你需要的内容."
+   },
+   "options_button_clear": {
+      "description": "",
+      "message": "更改邮件地址"
+   },
+   "options_button_input": {
+      "description": "",
+      "message": "输入"
+   },
+   "options_button_reset": {
+      "description": "",
+      "message": "恢复"
+   },
+   "options_button_save": {
+      "description": "",
+      "message": "保存"
+   },
+   "options_button_verify": {
+      "description": "",
+      "message": "验证"
+   },
+   "options_explain_free_kindle": {
+      "description": "",
+      "message": "\u003Cb>@free.kindle.com: \u003C/b>通过Wi-Fi网络传送, 只适合Kindle 3\u003Cbr/>\u003Cbr/>使用 free.kindle.com 方式将不会在产生任何数据费用.\u003Cbr/>\u003Cbr/>如果你使用的是早期版本的Kindle, 你将收到邮件但是 \"Send to Kindle\" 文档不会直接传送到你的Kindle."
+   },
+   "options_explain_kindle": {
+      "description": "",
+      "message": "\u003Cb>@kindle.com: \u003C/b>通过 3G 或 Wi-Fi传送, 适合所有型号的Kindle.\u003Cbr/>\u003Cbr/>\u003Cspan style=\"font-weight: bold;\">通过3G方式传输时, Amazon将收取 \u003Ca style=\"text-decoration: underline;\" href=\"http://www.amazon.com/gp/help/customer/display.html?nodeId=200505520&amp;#fees\">3G传输费用\u003C/a>.\u003C/span>\u003Cbr/>\u003Cbr/>\"Send to Kindle\" 不承担任何由于使用此功能所产生费用的责任。"
+   },
+   "options_instructions": {
+      "description": "",
+      "message": "\u003Ch2 style=\"text-align: left;\">设置说明\u003C/h2>\u003Cp>首先, 你 \u003Cb style=\"color:red\">必须\u003C/b> 告诉Amazon允许 \"kindle@klip.me\" 发送邮件到你的Kindle:\u003C/p>\u003Col>\u003Cli>到 \u003Ca href=\"https://www.amazon.com/gp/digital/fiona/manage?ie=UTF8#pdocSettings\" target=\"_blank\">your Kindle management page\u003C/a> (你的Kindle管理界面).\u003C/li>\u003Cbr/>\u003Cli>在 \u003Cb>Your Kindle approved e-mail list\u003C/b> (你的Kindle接收邮件名单), 添加下列地址:\u003Cpre id=\"sender_address\" style=\"font-size:18px;font-family:Arial Black;\">kindle@klip.me\u003C/pre>\u003C/li>\u003Cli>在 \u003Cb>Your Kindle(s)\u003C/b>, 找到 \u003Cb>Kindle邮件地址\u003C/b> 填入下边的输入框.\u003C/li>\u003C/ol>\u003Cp style=\"color:red;font-weight:bold;\">请再次确认上述操作正确完成, 否则你将不会收到任何发送的文档.\u003C/p>"
+   },
+   "options_label_1_click": {
+      "description": "",
+      "message": "一键发送 (当点击 \u003Cimg alt=\"icon\" src=\"images/icon16.png\"/> 按钮时)"
+   },
+   "options_label_byEmail": {
+      "description": "",
+      "message": "电子邮件: 将发送一封验证邮件到你的地址."
+   },
+   "options_label_byGoogleAccount": {
+      "description": "",
+      "message": "Google账号: \u003Cb>即时\u003C/b>验证你的邮件地址."
+   },
+   "options_label_checking": {
+      "description": "",
+      "message": "验证中..."
+   },
+   "options_label_credit": {
+      "description": "",
+      "message": "感谢 "
+   },
+   "options_label_credit_detail": {
+      "description": "",
+      "message": "中文翻译: 大砖头"
+   },
+   "options_label_experimental": {
+      "description": "",
+      "message": "试验"
+   },
+   "options_label_findEvernoteEmail": {
+      "description": "",
+      "message": "查找你的Evernote邮件地址"
+   },
+   "options_label_findInstapaperEmail": {
+      "description": "",
+      "message": "查找你的Instapaper邮件地址"
+   },
+   "options_label_keepBlank": {
+      "description": "",
+      "message": "* 保持为空禁用该快捷键"
+   },
+   "options_label_keep_images": {
+      "description": "",
+      "message": "保持图片"
+   },
+   "options_label_keep_images_info": {
+      "description": "",
+      "message": "当页面大小太大时, 只发送文字"
+   },
+   "options_label_keep_paragraph_spacing": {
+      "description": "",
+      "message": "增加段落间距"
+   },
+   "options_label_keyboradShorcuts": {
+      "description": "",
+      "message": "键盘快捷键:"
+   },
+   "options_label_myEmailAddress": {
+      "description": "",
+      "message": "我的邮件地址:"
+   },
+   "options_label_my_kindle_email": {
+      "description": "",
+      "message": "我的Kindle邮件地址:"
+   },
+   "options_label_others": {
+      "description": "",
+      "message": "其它:"
+   },
+   "options_label_preview": {
+      "description": "",
+      "message": "预览:"
+   },
+   "options_label_pushtophone": {
+      "description": "",
+      "message": "发送网页文章到你的电子邮件稍后阅读:"
+   },
+   "options_label_saved": {
+      "description": "",
+      "message": "选项已保存"
+   },
+   "options_label_see_instructions": {
+      "description": "",
+      "message": "参考上边的  \u003Cb>设置说明\u003C/b>."
+   },
+   "options_label_send": {
+      "description": "",
+      "message": "发送:"
+   },
+   "options_label_send_email": {
+      "description": "",
+      "message": "发送到邮件:"
+   },
+   "options_label_send_kindle": {
+      "description": "",
+      "message": "发送到 Kindle:"
+   },
+   "options_label_send_kindle_email": {
+      "description": "",
+      "message": "发送到Kindle + 邮件:"
+   },
+   "options_label_send_later": {
+      "description": "",
+      "message": "稍后发送(暂存):"
+   },
+   "options_label_throughwall": {
+      "description": "",
+      "message": "穿墙 (针对中国地区用户)"
+   },
+   "options_label_verifyInfo": {
+      "description": "",
+      "message": "验证你的邮件地址以确认你是该邮件地址的持有者."
+   },
+   "options_title": {
+      "description": "",
+      "message": "一键发送到Kindle - 选项"
+   }
+}
