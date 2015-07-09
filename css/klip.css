@@ -840,6 +840,7 @@ body.exporting #klip_source {
 	cursor: pointer;
 	overflow: visible;
 	width: auto;
+	border-radius: 50px;
 }
 .large.klip_button {
 	font-size: 20px;

@@ -254,6 +254,17 @@ u = new Class({
         else if (a.i("edit-")) return $klippy.c.Va(a.Sa("edit-"), b);
         return i
     },
+    formatCode: function(elist){
+        var len = elist.length
+        for(var i=0; i<len; i++){
+            var code = elist[i]
+            var new_text = code.get('text')
+                .replace(/\n/g, '<br />')//解决廖雪峰换行
+                .replace(/\s/g, '&nbsp;')//解决缩进
+            //增加code区域换行
+            code.innerHTML = new_text
+        }
+    },
     wb: function(a, b) {
         var c = new v,
             e = c.vb(),
@@ -287,19 +298,25 @@ u = new Class({
                 return i
             }
         });
+        //deal codes area plugnis
+        var eCodes = e.getElements('code')
+        this.formatCode(eCodes)
+        
+        var new_html = e.get("html")
+
         f = {
             name: name,
             url: f,
             title: d,
-            html: e.get("html"),
+            html: new_html,
+            // text: e.get("text").trim(),
             text: e.get("text").clean(),
             ss: c
         };
+        //这里提交的内容有问题，廖雪峰代码格式没有了，没有换行span
         f.summary = f.text.substring(0, 500);
         if (f.text.length > f.summary.length) f.summary += " ...";
-
-        console.log(f)
-
+ 
         return f
     }
 });
@@ -676,6 +693,7 @@ Element.implement({
         }
         this.mc("*");
         this.Da("iframe, script, noscript, form, style, #comment");
+
         if (!($(document.body).className.indexOf("mediawiki") >= 0)) if (!document.location.host.aa("baike.baidu.com")) {
             this.ic();
             for (c = 0; c < a.length; c++) this.Da("[" + a[c] + "]");
@@ -2142,6 +2160,9 @@ u.ac = new Class({
             });
             this.g.grab(this.ea);
             var a = this;
+            if(!window.Drag){
+                return
+            }
             this.Bd = new Drag("klip_tl_draggable", {
                 snap: 5,
                 onSnap: n(),
@@ -3877,7 +3898,7 @@ var M = new Class({
             if (this.options.buttons.contains("send")) {
                 this.Ra = new Element("div", {
                     id: "klip_edit_send",
-                    "class": "large orange klip_button",
+                    "class": "medium orange klip_button",
                     style: "margin-top: 40px;",
                     title: this.options.app_title + " (" + e + ")",
                     html: this.i18n.button_send
@@ -3891,7 +3912,7 @@ var M = new Class({
             if (this.options.buttons.contains("share-sina-weibo")) {
                 this.Mb = new Element("div", {
                     id: "klip_edit_share_sina_weibo",
-                    "class": "large orange klip_button",
+                    "class": "medium orange klip_button",
                     style: "margin-top: 40px;",
                     title: this.options.app_title,
                     html: this.i18n.button_share_sina_weibo
@@ -3919,7 +3940,7 @@ var M = new Class({
             if (this.options.buttons.contains("save")) {
                 this.Pa = new Element("div", {
                     id: "klip_edit_save",
-                    "class": "large green klip_button pulse",
+                    "class": "medium green klip_button pulse",
                     style: "margin-top: 40px;",
                     title: b,
                     html: this.i18n.button_save
